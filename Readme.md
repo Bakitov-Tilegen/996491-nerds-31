@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Tilegen Bakitov](https://up.htmlacademy.ru/htmlcss/31/user/996491).
-* Наставник: [`Юрий Михин`](https://htmlacademy.ru/profile/id563815).
+* Наставник: [Юрий Михин](https://htmlacademy.ru/profile/id563815).
  
 ---
 
