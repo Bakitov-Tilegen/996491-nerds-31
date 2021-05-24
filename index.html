@@ -3,10 +3,149 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-  <body>
+    <header>
+      <section class="header-wrapper">
+        <a class="header-logo"><img src="./img/header/nerds-logo.svg" alt="Логотип Нердс" width="160" height="65"></a>
+      <nav class="nav-wrapper">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Студия</a></li>
+          <li class="nav-item"><a href="#">Клиенты</a></li>
+          <li class="nav-item"><a href="catalog.html">Магазин</a></li>
+          <li class="nav-item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="basket-link">Корзина</a>
+    </section>
+    </header>
+    <main>
+      <!--//!Slider-->
+      <section class="slider-wrapper">
+        <h1 class="vissible-title slider-title">Преимущества</h1>
+        <div class="slider-txt-wrapper">
+          <p class="slider-txt">Долго, дорого, скрупулезно.</p>
+          <p class="slider-sub-txt">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <button class="btn btn-more">Узнать больше</button>  
+        </div>
+        <div class="slider-img-wrapper">
+          <ul class="slider-list">
+            <li class="slider-item"><img src="./img/header/nerds-index-slide1.png" alt="Оптимизация под мобильную версию" width="760" height="431"></li>
+            <li class="slider-item"><img src="./img/header/nerds-index-slide2.png" alt="ПО под iOS и Android" width="760" height="431"></li>
+            <li class="slider-item"><img src="./img/header/nerds-index-slide3.png" alt="UI UX Дизайн сайтов" width="760" height="431"></li>
+          </ul>
+        </div>
+      </section>
+      <!--//!Service-->
+      <section class="service-wrapper">
+        <h1 class="vissible-title">Услуги</h1>
+        <ul class="service-list">
+          <li class="service-item">
+            <img src="./img/main/web.jpg" alt="Сайт" width="300" height="146">
+              <h3 class="service-title">Веб-сайты</h3>
+                <p class="service-txt">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                <a href="" class="btn btn--red service-link">Заказать</a>
+          </li>
+          <li class="service-item">
+            <img src="./img/main/app.jpg" alt="Сайт" width="300" height="146">
+              <h3 class="service-title">Приложения</h3>
+                <p class="service-txt">Покорите топ-10 приложений в AppStore и Google Play</p>
+                <a href="" class="btn btn--green service-link">Заказать</a>
+          </li>
+          <li class="service-item">
+            <img src="./img/main/presantation.jpg" alt="Сайт" width="300" height="146">
+              <h3 class="service-title">Презентации</h3>
+                <p class="service-txt">Вы даже не подозреваете, насколько вы изумительны!</p>
+                <a href="" class="btn btn--yellow service-link">Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <!--//!About us-->
+      <section class="about-us-wrapper">
+      <div class="about-us-txt-wrapper">
+        <h1 class="vissible-title">О нас</h1>
+        <span class="about-us-title">Мы — маленькая, но гордая </br> дизайн-студия из Краснодара.</span>
+        <p class="about-us-txt">Исповедуем принципы минимализма и чистоты. Ставим математический расчет </br> превыше креатива. Работаем не покладая рук, как роботы.</p>
+      
+        <h3 class="about-us-subtitle">Выполняем заказы на разработку:</h3>
+        <ul class="about-us-list">
+          <li class="about-us-item">	Веб-сайтов любой сложности</li>
+          <li class="about-us-item">	Мобильных приложений для iOS и Android</li>
+          <li class="about-us-item">	Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="about-us-stat">
+        <img src="./img/main/nerds-stats.png" alt="Нердс логотип" width="360" height="208">
+        <span class="about-us-signin-txt">с 2004 года Любим точность во всем:</span>
+        <table class="about-us-signin">
+          <tr>
+            <th>146%</th>
+            <th>100%</th>
+            <th>50%</th>
+          </tr>
+          <tr>
+            <td>Уровень</br> самоотдачи</td>
+            <td>Соблюдение</br> сроков</td>
+            <td>Минимальная </br> предоплата</td>
+          </tr>
+        </table>
+      </div>
+      </section>
+      <!--//!client-->
+      <section class="client-wrapper">
+        <ul class="client-list">
+          <li class="client-item"><a href="https://htmlacademy.ru/"><img src="./img/main/client-1.svg" alt="htmlacademy клиент"></a></li>
+          <li class="client-item"><a href="#"><img src="./img/main/client-2.svg" alt="htmlacademy клиент"></a></li>
+          <li class="client-item"><a href="#"><img src="./img/main/client-3.svg" alt="htmlacademy клиент"></a></li>
+          <li class="client-item"><a href="#"><img src="./img/main/client-4.svg" alt="htmlacademy клиент"></a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <!--//!map-->
+      <section class="map-wrapper">
+        <div class="map-address">
+          <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
+          <p class="address-txt">наб. Реки Карповки,</br> 5 лит П, Санкт-Петербург</p>
+          <a href="tel:+78005558628">+7 800 555-86-28</a>
+          <button class="btn btn--red address-btn" type="button">Напишите нам</button>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d800.282252974584!2d30.315123580084485!3d59.968447937525745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4LCDigKg1INC70LjRgiDQnywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2skz!4v1621783456047!5m2!1sru!2skz" width="100%" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+      <!--//!write popup-->
+      <section class="popup write-wrapper-popup">
+        <div class="write">
+          <form action="https://echo.htmlacademy.ru" method="GET" class="write-form">
+            <h2 class="write-form-title">Напишите нам</h2>
+            
+            <label for="write-name">
+              <input type="text" name="user-name" id="write-name" placeholder="Имя Фамилия">
+            </label>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+            <label for="write-email">
+              <input type="email" name="user-email" id="write-email" placeholder="email@example.com" required>
+            </label>
 
+            <h4 class="write-textarea-title">Текст письма:</h4> 
+              <textarea name="" id="" cols="70" rows="20" placeholder="В свободной форме"></textarea>
+
+              <button class="btn btn--red btn-write" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <!--//!copyright-->
+      <section class="copyright-wrapper">
+        <ul class="copyright-list">
+          <li class="copyright-item"><a href="#"><img src="./img/footer/vk.svg" alt="Vkontakte"></a></li>
+          <li class="copyright-item"><a href="#"><img src="./img/footer/facebook.svg" alt="facebook"></a></li>
+          <li class="copyright-item"><a href="#"><img src="./img/footer/instagram.svg" alt="instagram"></a></li>
+        </ul>
+        <div class="copyright-txt-wrapper">
+          <span class="copyright-title">Давайте дружить, это выгодно!</span>
+          <p class="copyright-txt">Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
