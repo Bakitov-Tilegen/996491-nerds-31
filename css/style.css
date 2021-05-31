@@ -1,3 +1,4 @@
+/*! Font */
 @font-face {
     font-family: RobotoNormal;
     src: url(../fonts/roboto.woff);
@@ -41,3 +42,32 @@
     background: transparent;
     cursor: pointer;
 }
+/*!Root*/
+:root {
+/*!Background-color*/
+    --main-bg-color:#ffffff;
+    --header-bg-color:#eeeeee;
+    --icon-bg-color:#e1e1e1;
+
+/*!Button-color*/
+    --btn-red:#FB565A;
+    --btn-green:#00CA74;
+    --btn-yellow:#EFC849; 
+
+/*!Text-color*/
+    --txt-black:#000000;
+    --txt-darkgray:#283136;
+    --txt-white:#ffffff;
+
+/*!Font-size*/
+    --font-size14:14px;
+    --font-size16:16px;
+    --font-size18:18px;
+    --font-size24:24px;
+    --font-size30:30px;
+    --font-size36:36px;
+    --font-size45:45px;
+    --font-size55:55px;
+}
+
+
