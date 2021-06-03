@@ -13,179 +13,180 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<header>
-  <section class="header-wrapper">
-    <a href="index.html" class="header-logo"><img src="img/header/nerds-logo.svg" alt="Логотип Нердс" width="160"
-        height="65"></a>
-    <nav class="nav-wrapper">
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#">Студия</a></li>
-        <li class="nav-item"><a href="#">Клиенты</a></li>
-        <li class="nav-item"><a href="#">Магазин</a></li>
-        <li class="nav-item"><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="basket-link">Корзина</a>
-  </section>
-</header>
-<main>
-  <!--//!header-title-->
-  <div class="header-title-wrapper">
-    <h1 class="header-title">Магазин готовых шаблонов</h1>
-  </div>
-
-  <!--//!catalog-wrapper-->
-  <div class="catalog-wrapper">
-    <!--//!sort-header-wrapper-->
-    <section class="sort-header-wrapper">
-      <ul class="sort-header-list">
-        <li class="sort-header-item">
-          <h3 class="sort-filter-title filter-title">Стоимость:</h3>
-        </li>
-        <li class="sort-header-item">
-          <h3 class="sort-filter-title">Сортировать:</h3>
-        </li>
-        <li class="sort-header-item">
-        <li class="sort-header-item">
-          <button type="button" class="sort-btn">По цене</button>
-          <button type="button" class="sort-btn">По типу</button>
-          <button type="button" class="sort-btn">По назнаванию</button>
-          <button class="btn sort-btn-down" type="menu" menu="menu"></button>
-          <button class="btn sort-btn-up" type="menu" menu="menu"></button>
-        </li>
-        </li>
-      </ul>
+<body class="page">
+  <header>
+    <section class="header-wrapper">
+      <a href="index.html" class="header-logo"><img src="img/nerds-logo.svg" alt="Логотип Нердс" width="160"
+          height="65"></a>
+      <nav class="nav-wrapper">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Студия</a></li>
+          <li class="nav-item"><a href="#">Клиенты</a></li>
+          <li class="nav-item"><a href="#">Магазин</a></li>
+          <li class="nav-item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="basket-link">Корзина</a>
     </section>
-    <!--//!sort-wrapper-->
-
-    <section class="sort-wrapper">
-      <form action="https://echo.htmlacademy.ru" method="GET">
-        <fieldset>
-          <ul class="range-list">
-            <li class="range-item">
-              <label for="price-range-id"></label>
-              <input type="range" name="price-range" id="price-range-id">
-            </li>
-            <li class="range-item">
-              <div class="price-range-wrapper">
-                <label for="price-range-min">От:</label>
-                <input type="number" name="price-range" id="price-range-min" value="0">
-                <label for="price-range-max">До:</label>
-                <input type="number" name="price-range" id="price-range-max" value="15000">
-              </div>
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset>
-          <legend class="filter-title">
-            Сетка:
-          </legend>
-          <ul class="net-radio-list">
-            <li class="net-radio-item">
-              <input type="radio" name="radio-net" id="radio-adaptive">
-              <label for="radio-adaptive">Адаптивная:</label>
-            </li>
-            <li class="net-radio-item">
-              <input type="radio" name="radio-net" id="radio-fix">
-              <label for="radio-fix">Фиксированная:</label>
-            </li>
-            <li class="net-radio-item">
-              <input type="radio" name="radio-net" id="radio-gum">
-              <label for="radio-gum">Резиновая:</label>
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset>
-
-          <legend class="filter-title">
-            Особенности:
-          </legend>
-
-          <ul class="features-checkbox-list">
-            <li class="features-checkbox-item">
-              <input type="checkbox" name="checkbox-slider" id="checkbox-slider-id" checked>
-              <label for="checkbox-slider-id">Слайдер</label>
-            </li>
-            <li class="features-checkbox-item">
-              <input type="checkbox" name="checkbox-advantage" id="checkbox-advantage-id">
-              <label for="checkbox-advantage-id">Блок преимуществ</label>
-            </li>
-
-            <li class="features-checkbox-item">
-              <input type="checkbox" name="checkbox-news" id="checkbox-news-id" checked>
-              <label for="checkbox-news-id">Новости</label>
-            </li>
-            <li class="features-checkbox-item">
-              <input type="checkbox" name="checkbox-gallery" id="checkbox-gallery-id">
-              <label for="checkbox-gallery-id">Галерея</label>
-            </li>
-            <li class="features-checkbox-item">
-              <input type="checkbox" name="checkbox" id="checkbox-id">
-              <label for="checkbox-id">Корзина</label>
-            </li>
-          </ul>
-        </fieldset>
-
-        <button type="submit" class="btn btn--gray sort-btn">Показать</button>
-
-      </form>
-    </section>
-    <!--//!result-wrapper-->
-    <section class="result-wrapper">
-      <ul class="result-list">
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/sedona-result-1.jpg" width="358"
-              height="578" alt="Седона Сайт по бронированию"></a></li>
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/pink-result-2.jpg" width="358"
-              height="578" alt="Pink турагентство"></a></li>
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/barbershop-result-3.jpg" width="358"
-              height="578" alt="Бородинский Барбершоп"></a></li>
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/mishka-result-4.jpg" width="358"
-              height="578" alt="Mishka  вышивка"></a></li>
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/learn-result-5.jpg" width="358"
-              height="578" alt=" обучение"></a></li>
-        <li class="result-item"><a href="#" class="result-link"><img src="img/main/kvas-result-6.jpg" width="358"
-              height="578" alt="Ржаной квас"></a></li>
-      </ul>
-    </section>
-    <!--//!page-wrapper-->
-    <section class="page-wrapper">
-      <ul class="page-list">
-        <li class="page-item"><a class="page-link page-link--active">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">Следующая</a></li>
-      </ul>
-    </section>
-  </div>
-</main>
-<footer>
-  <!--//!map-->
-  <div class="map-wrapper">
-    <div class="map-address">
-      <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
-      <p class="address-txt">наб. Реки Карповки, 5 лит П, Санкт-Петербург</p>
-      <a href="tel:+78005558628">+7 800 555-86-28</a>
-      <button class="btn btn--red address-btn" type="button">Напишите нам</button>
+  </header>
+  <main>
+    <!--//!header-title-->
+    <div class="header-title-wrapper">
+      <h1 class="header-title">Магазин готовых шаблонов</h1>
     </div>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d800.282252974584!2d30.315123580084485!3d59.968447937525745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4LCDigKg1INC70LjRgiDQnywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2skz!4v1621783456047!5m2!1sru!2skz"
-      width="1920" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-  <!--//!copyright-->
-  <section class="copyright-wrapper">
-    <ul class="copyright-list">
-      <li class="copyright-item"><a href="#"><img src="img/footer/vk.svg" alt="Vkontakte"></a></li>
-      <li class="copyright-item"><a href="#"><img src="img/footer/facebook.svg" alt="facebook"></a></li>
-      <li class="copyright-item"><a href="#"><img src="img/footer/instagram.svg" alt="instagram"></a></li>
-    </ul>
-    <div class="copyright-txt-wrapper">
-      <p class="copyright-title">Давайте дружить, это выгодно!</p>
-      <p class="copyright-txt">Скидка 10% для друзей из социальных сетей</p>
+
+    <!--//!catalog-wrapper-->
+    <div class="catalog-wrapper">
+      <!--//!sort-header-wrapper-->
+      <section class="sort-header-wrapper">
+        <ul class="sort-header-list">
+          <li class="sort-header-item">
+            <h3 class="sort-filter-title filter-title">Стоимость:</h3>
+          </li>
+          <li class="sort-header-item">
+            <h3 class="sort-filter-title">Сортировать:</h3>
+          </li>
+          <li class="sort-header-item">
+          <li class="sort-header-item">
+            <button type="button" class="sort-btn">По цене</button>
+            <button type="button" class="sort-btn">По типу</button>
+            <button type="button" class="sort-btn">По назнаванию</button>
+            <button class="btn sort-btn-down" type="menu" menu="menu"></button>
+            <button class="btn sort-btn-up" type="menu" menu="menu"></button>
+          </li>
+          </li>
+        </ul>
+      </section>
+      <!--//!sort-wrapper-->
+
+      <section class="sort-wrapper">
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset>
+            <ul class="range-list">
+              <li class="range-item">
+                <label for="price-range-id"></label>
+                <input type="range" name="price-range" id="price-range-id">
+              </li>
+              <li class="range-item">
+                <div class="price-range-wrapper">
+                  <label for="price-range-min">От:</label>
+                  <input type="number" name="price-range" id="price-range-min" value="0">
+                  <label for="price-range-max">До:</label>
+                  <input type="number" name="price-range" id="price-range-max" value="15000">
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <legend class="filter-title">
+              Сетка:
+            </legend>
+            <ul class="net-radio-list">
+              <li class="net-radio-item">
+                <input type="radio" name="radio-net" id="radio-adaptive">
+                <label for="radio-adaptive">Адаптивная:</label>
+              </li>
+              <li class="net-radio-item">
+                <input type="radio" name="radio-net" id="radio-fix">
+                <label for="radio-fix">Фиксированная:</label>
+              </li>
+              <li class="net-radio-item">
+                <input type="radio" name="radio-net" id="radio-gum">
+                <label for="radio-gum">Резиновая:</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+
+            <legend class="filter-title">
+              Особенности:
+            </legend>
+
+            <ul class="features-checkbox-list">
+              <li class="features-checkbox-item">
+                <input type="checkbox" name="checkbox-slider" id="checkbox-slider-id" checked>
+                <label for="checkbox-slider-id">Слайдер</label>
+              </li>
+              <li class="features-checkbox-item">
+                <input type="checkbox" name="checkbox-advantage" id="checkbox-advantage-id">
+                <label for="checkbox-advantage-id">Блок преимуществ</label>
+              </li>
+
+              <li class="features-checkbox-item">
+                <input type="checkbox" name="checkbox-news" id="checkbox-news-id" checked>
+                <label for="checkbox-news-id">Новости</label>
+              </li>
+              <li class="features-checkbox-item">
+                <input type="checkbox" name="checkbox-gallery" id="checkbox-gallery-id">
+                <label for="checkbox-gallery-id">Галерея</label>
+              </li>
+              <li class="features-checkbox-item">
+                <input type="checkbox" name="checkbox" id="checkbox-id">
+                <label for="checkbox-id">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <button type="submit" class="btn btn--gray sort-btn">Показать</button>
+
+        </form>
+      </section>
+      <!--//!result-wrapper-->
+      <section class="result-wrapper">
+        <ul class="result-list">
+          <li class="result-item"><a href="#" class="result-link"><img src="img/sedona-result-1.jpg" width="358"
+                height="578" alt="Седона Сайт по бронированию"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/pink-result-2.jpg" width="358"
+                height="578" alt="Pink турагентство"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/barbershop-result-3.jpg"
+                width="358" height="578" alt="Бородинский Барбершоп"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/mishka-result-4.jpg" width="358"
+                height="578" alt="Mishka  вышивка"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/learn-result-5.jpg" width="358"
+                height="578" alt=" обучение"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/kvas-result-6.jpg" width="358"
+                height="578" alt="Ржаной квас"></a></li>
+        </ul>
+      </section>
+      <!--//!page-wrapper-->
+      <section class="page-wrapper">
+        <ul class="page-list">
+          <li class="page-item"><a class="page-link page-link--active">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">Следующая</a></li>
+        </ul>
+      </section>
     </div>
-  </section>
-</footer>
+  </main>
+  <footer>
+    <!--//!map-->
+    <div class="map-wrapper">
+      <div class="map-address">
+        <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
+        <p class="address-txt">наб. Реки Карповки, 5 лит П, Санкт-Петербург</p>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
+        <button class="btn btn--red address-btn" type="button">Напишите нам</button>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d800.282252974584!2d30.315123580084485!3d59.968447937525745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4LCDigKg1INC70LjRgiDQnywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2skz!4v1621783456047!5m2!1sru!2skz"
+        width="1920" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!--//!copyright-->
+    <section class="copyright-wrapper">
+      <ul class="copyright-list">
+        <li class="copyright-item"><a href="#"><img src="img/vk.svg" alt="Vkontakte"></a></li>
+        <li class="copyright-item"><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+        <li class="copyright-item"><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
+      </ul>
+      <div class="copyright-txt-wrapper">
+        <p class="copyright-title">Давайте дружить, это выгодно!</p>
+        <p class="copyright-txt">Скидка 10% для друзей из социальных сетей</p>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
