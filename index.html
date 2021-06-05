@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
 
 <head>
   <meta charset="utf-8">
@@ -10,11 +10,13 @@
   <link rel="manifest" href="manifest.webmanifest">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="page"></body>
-  <header>
+<body class="page-body">
+  <header class="page-header">
+    <div class="header-slider-wrapper wrapper">
     <section class="header-wrapper">
       <a class="header-logo"><img src="img/nerds-logo.svg" alt="Логотип Нердс" width="160" height="65"></a>
       <nav class="nav-wrapper">
@@ -28,29 +30,31 @@
       <a href="#" class="basket-link"
       >Корзина</a>
     </section>
+
+        <!--//!Slider-->
+        <section class="slider-wrapper ">
+          <h2 class="invisible-title">Преимущества</h2>
+          <div class="slider-txt-wrapper">
+            <p class="slider-title">Долго, дорого, скрупулезно.</p>
+            <p class="slider-txt">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <button class="btn btn-more btn--red">Узнать больше</button>
+          </div>
+          <div class="slider-img-wrapper">
+            <ul class="slider-list">
+              <li class="slider-item"><img src="img/nerds-index-slide1.png" alt="Оптимизация под мобильную версию"
+                  width="760" height="431"></li>
+              <li class="slider-item"><img src="img/nerds-index-slide2.png" alt="ПО под iOS и Android" width="760"
+                  height="431"></li>
+              <li class="slider-item"><img src="img/nerds-index-slide3.png" alt="UI UX Дизайн сайтов" width="760"
+                  height="431"></li>
+            </ul>
+          </div>
+        </section>
+      </div>
   </header>
   <main>
-    <!--//!Slider-->
-    <section class="slider-wrapper">
-      <h2 class="invisible-title slider-title">Преимущества</h2>
-      <div class="slider-txt-wrapper">
-        <p class="slider-txt">Долго, дорого, скрупулезно.</p>
-        <p class="slider-sub-txt">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <button class="btn btn-more">Узнать больше</button>
-      </div>
-      <div class="slider-img-wrapper">
-        <ul class="slider-list">
-          <li class="slider-item"><img src="img/nerds-index-slide1.png" alt="Оптимизация под мобильную версию"
-              width="760" height="431"></li>
-          <li class="slider-item"><img src="img/nerds-index-slide2.png" alt="ПО под iOS и Android" width="760"
-              height="431"></li>
-          <li class="slider-item"><img src="img/nerds-index-slide3.png" alt="UI UX Дизайн сайтов" width="760"
-              height="431"></li>
-        </ul>
-      </div>
-    </section>
     <!--//!Service-->
-    <section class="service-wrapper">
+    <section class="service-wrapper wrapper">
       <h2 class="invisible-title">Услуги</h2>
       <ul class="service-list">
         <li class="service-item">
@@ -74,7 +78,7 @@
       </ul>
     </section>
     <!--//!About us-->
-    <section class="about-us-wrapper">
+    <section class="about-us-wrapper wrapper">
       <div class="about-us-txt-wrapper">
         <h2 class="invisible-title">О нас</h2>
         <p class="about-us-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
@@ -90,7 +94,7 @@
         </ul>
       </div>
       <div class="about-us-stat">
-        <img src="img/nerds-stats.png" alt="Нердс логотип" width="360" height="208">
+        <img class="about-us-img" src="img/nerds-stats.png" alt="Нердс логотип" width="360" height="208">
         <span class="about-us-signin-txt">с 2004 года Любим точность во всем:</span>
         <dl class="about-us-signin-list">
           <dt>146%</dt>
@@ -106,7 +110,7 @@
       </div>
     </section>
     <!--//!client-->
-    <section class="client-wrapper">
+    <section class="client-wrapper wrapper">
       <ul class="client-list">
         <li class="client-item"><a href="https://htmlacademy.ru/"><img src="img/client-1.svg" width="199"
               height="58" alt="Обучение Front-End разработке"></a></li>
@@ -134,7 +138,7 @@
         width="1920" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
     <!--//!write popup-->
-    <section class="popup write-wrapper-popup">
+    <section class="popup write-wrapper-popup ">
       <div class="write">
         <form action="https://echo.htmlacademy.ru" method="GET" class="write-form">
           <h2 class="write-form-title">Напишите нам</h2>
@@ -156,7 +160,7 @@
       </div>
     </section>
     <!--//!copyright-->
-    <section class="copyright-wrapper">
+    <section class="copyright-wrapper wrapper">
       <ul class="copyright-list">
         <li class="copyright-item"><a href="#"><img src="img/vk.svg" width="27" height="15" alt="Vkontakte"></a>
         </li>
@@ -172,5 +176,5 @@
     </section>
   </footer>
 
-
+</body>
 </html>
