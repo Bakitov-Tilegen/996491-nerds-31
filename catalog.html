@@ -15,8 +15,8 @@
 </head>
 
 <body class="page-body">
-  <header>
-    <section class="header-wrapper">
+  <header class="page-header">
+    <section class="header-wrapper wrapper">
       <a href="index.html" class="header-logo"><img src="img/nerds-logo.svg" alt="Логотип Нердс" width="160"
           height="65"></a>
       <nav class="nav-wrapper">
@@ -29,15 +29,15 @@
       </nav>
       <a href="#" class="basket-link">Корзина</a>
     </section>
-  </header>
-  <main>
+
     <!--//!header-title-->
     <div class="header-title-wrapper">
       <h1 class="header-title">Магазин готовых шаблонов</h1>
     </div>
-
+  </header>
+  <main>
     <!--//!catalog-wrapper-->
-    <div class="catalog-wrapper">
+    <div class="catalog-wrapper wrapper">
       <!--//!sort-header-wrapper-->
       <section class="sort-header-wrapper">
         <ul class="sort-header-list">
@@ -61,7 +61,7 @@
       <!--//!sort-wrapper-->
 
       <section class="sort-wrapper">
-        <form action="https://echo.htmlacademy.ru" method="GET">
+        <form class="sort-form" action="https://echo.htmlacademy.ru" method="GET">
           <fieldset>
             <ul class="range-list">
               <li class="range-item">
@@ -130,7 +130,7 @@
             </ul>
           </fieldset>
 
-          <button type="submit" class="btn btn--gray sort-btn">Показать</button>
+          <button type="submit" class="btn btn--gray view-btn">Показать</button>
 
         </form>
       </section>
@@ -141,8 +141,8 @@
                 height="578" alt="Седона Сайт по бронированию"></a></li>
           <li class="result-item"><a href="#" class="result-link"><img src="img/pink-result-2.jpg" width="358"
                 height="578" alt="Pink турагентство"></a></li>
-          <li class="result-item"><a href="#" class="result-link"><img src="img/barbershop-result-3.jpg"
-                width="358" height="578" alt="Бородинский Барбершоп"></a></li>
+          <li class="result-item"><a href="#" class="result-link"><img src="img/barbershop-result-3.jpg" width="358"
+                height="578" alt="Бородинский Барбершоп"></a></li>
           <li class="result-item"><a href="#" class="result-link"><img src="img/mishka-result-4.jpg" width="358"
                 height="578" alt="Mishka  вышивка"></a></li>
           <li class="result-item"><a href="#" class="result-link"><img src="img/learn-result-5.jpg" width="358"
@@ -157,7 +157,7 @@
           <li class="page-item"><a class="page-link page-link--active">1</a></li>
           <li class="page-item"><a href="#" class="page-link">2</a></li>
           <li class="page-item"><a href="#" class="page-link">3</a></li>
-          <li class="page-item"><a href="#" class="page-link">Следующая</a></li>
+          <li class="page-item"><a href="#" class="page-link page-link--next">Следующая</a></li>
         </ul>
       </section>
     </div>
@@ -176,7 +176,7 @@
         width="1920" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     <!--//!copyright-->
-    <section class="copyright-wrapper">
+    <section class="copyright-wrapper wrapper">
       <ul class="copyright-list">
         <li class="copyright-item"><a href="#"><img src="img/vk.svg" alt="Vkontakte"></a></li>
         <li class="copyright-item"><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
