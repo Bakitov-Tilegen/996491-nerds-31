@@ -129,7 +129,8 @@ ul {
 }
 
 .wrapper {
-  padding: 0 140px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -147,10 +148,12 @@ ul {
 }
 
 .basket-link {
+  /* margin-left: 285px; */
+  width: 72px;
   position: relative;
 }
 
-.invisible-title {
+.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -161,8 +164,8 @@ ul {
 .slider-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 0 0 140px;
-  margin: 0 0 80px 0;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .slider-title {
@@ -218,7 +221,7 @@ ul {
 .about-us-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 75px 0;
+  margin-bottom: 75px;
   padding-top: 70px;
   justify-content: space-between;
 }
@@ -333,7 +336,40 @@ ul {
 .client-item {}
 
 /*!Map (Карта)*/
-
+.map-wrapper {
+  position: relative;
+}
+.map-address {
+  box-sizing: border-box;
+  width: 320px;
+  height: 310px;
+  padding-top:50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: var(--main-bg-color);
+  position: absolute;
+  z-index: 10;
+  bottom: 50px;
+  left: 140px;
+}
+.address-title {
+  margin: 0;
+  margin-bottom: 22px;
+}
+.address-txt {
+  width: 200px;
+  margin: 0;
+  margin-bottom: 22px;
+}
+.address-button {
+  margin: 0;
+  margin-top: 37px;
+}
+.map-marker-img {
+  position: absolute;
+  top: 70px;
+  right: 362px;
+}
 /*!write popup (Напишите нам)*/
 .write-wrapper-popup {
   width: 960px;
@@ -385,6 +421,7 @@ ul {
 
 /*! copyright */
 .copyright-wrapper {
+  margin: 0;
   min-height: 220px;
   display: flex;
   justify-content: space-around;
@@ -438,7 +475,6 @@ ul {
   font-weight: 500;
   margin: 0;
 }
-111
 .sort-header-list {
   padding: 55px 0 0 0;
   margin: 0 0 50px 0;
@@ -503,17 +539,26 @@ ul {
 }
 
 .header-wrapper {
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 80px;
-  padding: 45px 140px 0 140px;
-
+  padding: 45px 0 0 0;
 }
 
 .header-logo {
   width: 160px;
   height: 65px;
+  /* margin-right: 200px; */
 }
-
+.nav-wrapper {
+  width: 440px;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .nav-item {
   flex: 1 1 auto;
   margin: 0 22.5px;
@@ -522,6 +567,7 @@ ul {
 .page-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 75px;
 }
 
 .page-item {
