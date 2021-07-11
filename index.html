@@ -35,17 +35,20 @@
         <h2 class="visually-hidden">Преимущества</h2>
         <div class="slider-txt-wrapper">
           <p class="slider-title">Долго, дорого, скрупулезно.</p>
-          <p class="slider-txt">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <p class="slider-txt">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
           <button class="button button-more button--red">Узнать больше</button>
         </div>
         <div class="slider-img-wrapper">
           <ul class="slider-list">
             <li class="slider-item"><img src="img/nerds-index-slide1.png" alt="Оптимизация под мобильную версию"
                 width="760" height="431"></li>
-            <li class="slider-item visually-hidden"><img src="img/nerds-index-slide2.png" alt="ПО под iOS и Android" width="760"
-                height="431"></li>
-            <li class="slider-item visually-hidden"><img src="img/nerds-index-slide3.png" alt="UI UX Дизайн сайтов" width="760"
-                height="431"></li>
+            <li class="slider-item visualy-hidden"></li>
+            <li class="slider-item visualy-hidden"></li>
+            <div class="slider-controls">
+              <button class="slider-button"><div class="slider-button--active"></div></button>
+              <button class="slider-button"></button>
+              <button class="slider-button"></button>
+            </div>
           </ul>
         </div>
       </section>
@@ -96,13 +99,13 @@
         <img class="about-us-img" src="img/nerds-stats.png" alt="Нердс логотип" width="360" height="208">
         <span class="about-us-signin-txt">с 2004 года Любим точность во всем:</span>
         <dl class="about-us-signin-list">
-          <dt>146%</dt>
+          <dt>146 <span>%</span></dt>
           <dd>Уровень самоотдачи</dd>
 
-          <dt>100%</dt>
+          <dt>100<span>%</span></dt>
           <dd>Соблюдение сроков</dd>
 
-          <dt>50%</dt>
+          <dt>50<span>%</span></dt>
           <dd>Минимальная предоплата</dd>
 
         </dl>
@@ -131,7 +134,8 @@
         <a href="tel:+78005558628">+7 800 555-86-28</a>
         <button class="button button--red address-button" type="button">Напишите нам</button>
       </div>
-      <img class="map-marker-img" width="231" height="190" src="img/map-marker-1.png" alt="Маркер на карте где мы находимся">
+      <img class="map-marker-img" width="231" height="190" src="img/map-marker-1.png"
+        alt="Маркер на карте где мы находимся">
       <iframe class="map-iframe"
         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d800.282252974584!2d30.315123580084485!3d59.968447937525745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4LCDigKg1INC70LjRgiDQnywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2skz!4v1621783456047!5m2!1sru!2skz"
         width="100%" height="416" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -139,25 +143,25 @@
     <!--//!write popup-->
     <section class="popup write-wrapper-popup ">
       <div class="write-popup">
-      <div class="button-close-popup"></div>
-      <form action="https://echo.htmlacademy.ru" method="GET" class="write-form">
-        <h2 class="write-form-title">Напишите нам</h2>
+        <div class="button-close-popup"></div>
+        <form action="https://echo.htmlacademy.ru" method="GET" class="write-form">
+          <h2 class="write-form-title">Напишите нам</h2>
 
-        <label for="write-name"> Ваше имя:
-          <input type="text" name="user-name" id="write-name" placeholder="Имя Фамилия" required>
-        </label>
+          <label for="write-name"> Ваше имя:
+            <input type="text" name="user-name" id="write-name" placeholder="Имя Фамилия" required>
+          </label>
 
-        <label for="write-email"> Ваш email:
-          <input type="email" name="user-email" id="write-email" placeholder="email@example.com" required>
-        </label>
+          <label for="write-email"> Ваш email:
+            <input type="email" name="user-email" id="write-email" placeholder="email@example.com" required>
+          </label>
 
-        <h4 class="write-textarea-title">Текст письма:</h4>
-        <textarea name="popup-textarea-name" id="popup-textarea" cols="60" rows="5"
-          placeholder="В свободной форме"></textarea>
+          <h4 class="write-textarea-title">Текст письма:</h4>
+          <textarea name="popup-textarea-name" id="popup-textarea" cols="60" rows="5"
+            placeholder="В свободной форме"></textarea>
 
-        <button class="button button--red button-write" type="submit">Отправить</button>
-      </form>
-    </div>
+          <button class="button button--red button-write" type="submit">Отправить</button>
+        </form>
+      </div>
     </section>
     <!--//!copyright-->
     <section class="copyright-wrapper wrapper">
