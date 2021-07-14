@@ -10,7 +10,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body class="page-body">
@@ -41,14 +41,14 @@
       <section class="sort-header-wrapper">
         <ul class="sort-header-list">
           <li class="sort-header-item">
-            <h3 class="sort-title filter-title">Стоимость:</h3>
+            <h3 class="sort-title">Стоимость:</h3>
           </li>
           <li class="sort-header-item">
             <h3 class="sort-title assort-title">Сортировать:</h3>
           </li>
           <li class="sort-header-item">
           <li class="sort-header-item">
-            <button type="button" class="sort-button">По цене</button>
+            <button type="button" class="sort-button sort-button--active">По цене</button>
             <button type="button" class="sort-button">По типу</button>
             <button type="button" class="sort-button">По назнаванию</button>
             <button class="button sort-button-down" type="button"></button>
@@ -157,7 +157,7 @@
               <a href="#" class="result-link"><img src="img/sedona-result-1.jpg" width="358" height="578"
                   alt="Седона Сайт по бронированию"></a>
               <div class="result-info">
-                <h2 class="result-info-title">Sedona</h2>
+                <h2 class="result-info-title">Sedona </h2>
                 <p class="result-info-text">Информационный сайт для туристов</p>
                 <a class="result-info-price button--red" href="#">9 900 ₽</a>
               </div>
@@ -203,17 +203,17 @@
               </div>
             </li>
           </ul>
+          <div class="page-wrapper">
+            <ul class="page-list">
+              <li class="page-item"><a class="page-link page-link--active">1</a></li>
+              <li class="page-item"><a href="#" class="page-link">2</a></li>
+              <li class="page-item"><a href="#" class="page-link">3</a></li>
+
+              <li class="page-item"><a href="#" class="page-link page-link--next">Следующая</a></li>
+            </ul>
+          </div>
         </section>
       </div>
-      <!--//!page-wrapper-->
-      <section class="page-wrapper">
-        <ul class="page-list">
-          <li class="page-item"><a class="page-link page-link--active">1</a></li>
-          <li class="page-item"><a href="#" class="page-link">2</a></li>
-          <li class="page-item"><a href="#" class="page-link">3</a></li>
-          <li class="page-item"><a href="#" class="page-link page-link--next">Следующая</a></li>
-        </ul>
-      </section>
     </div>
   </main>
   <footer>
@@ -221,7 +221,7 @@
     <section class="map-wrapper">
       <div class="map-address">
         <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
-        <p class="address-txt">наб. Реки Карповки, 5 лит П, Санкт-Петербург</p>
+        <p class="address-txt">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</p>
         <a href="tel:+78005558628">+7 800 555-86-28</a>
         <button class="button button--red address-button" type="button">Напишите нам</button>
       </div>
